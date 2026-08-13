@@ -1,13 +1,14 @@
 {
-  "type": "service_account",
-  "project_id": "web-me-a887b",
-  "private_key_id": "cda00a8f008b3564938a0466cd15090d91a7e9d4",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDpZIaiz9Ygu68t\nOdJoFouxXERS52YEUA2VRS8v1JccxJIwEGwWXxY+NMgn9iFKlbyOxbNF63i8j8q3\nRBOZUpFec9RElHEspeBUronVI/uoP5pSJN8tkvqyRO2SvkgG/bBFm6+ZG3xtWl99\nS11LeAiPpKxnV+Vwc3DMlg6zpFEQ9sr/IO1z9qdEdhOPlx8agkWVxI6GcxSFUR3w\nJE6O97w6e+IheAdlLzwLy2bYr9SAP+001KfEKqD3rgC3TOn/YUkvKobiHdKi9+sw\ntCA7RXvQCz4Y8/g1oU9q8DPhmKKuMWoqW/oy6OwZ8VzoRBQszXZzvOWjGMDJco+U\ngCv28GnzAgMBAAECggEAFwf2U0MFgzBnfnkvaVnENN8r14SB0tjK0QPv6UfmFjl9\noDmWo58u1OT6KsYFOKojCRxlmaI9cAS+gSw6GjiwI1fJxsS2kFcuwRyCJHggYX95\nQomPQ8eLw/i8+uyaXfo9y/irhi/UrP6B4B2GRNLBAYUYsDqtElY0ojOymrPofgRe\n8sN9z9pKlPr6mRCTgK/oZWJYkLni7cZLgHaMZKfPcVib+FJxL4KTN2ME4WZ0TqYA\n+ZqowUHatkGIZ8biwYdM8S1s3M+UWCqrGwI4gne1s5I59mnU1kVii3iaw+M3Eq/C\nWPi/coYVka2vXuO1r0x5le+hjxKvsuJ2YEI2Mhb1AQKBgQD9xs1cct5LaHYe71P4\nHXZS/CSxJcTUcHOUBit+erVrYcmr+jDQiJy600ku5CaXTNDaXKvDQATTMYMEelIZ\n2VpoZylOL5w/Td9cQhfspBEMF9sEXPB8bJ08XrsjXh0JFlmT3cYV4iRJPohiO5a7\nT0KigCAGha/kseB+rQI6LbntAQKBgQDrcAEnq1gjhRAn34SmHfisW+H8dj4zN3yG\nmuL2En7+vDuXKHt99RdZJJM6t1Tpysr/ThwedvfhXTTSgPl49df3A/X6Ve0++XvJ\nO659Jq8A2g5LKngkfZeIwhKad1TE4fwspM1ztonttttbW1xT6Q/KXMsox8CJD4Wc\n61kWIepy8wKBgH/9bQNsV5rWk4Rklgfz7AJMcsD5WH0APfpw5izC/I6s4gafh1EV\nJV7AQw+oN6JlNox64pH1zrkpJnfyrUemLIetR9LMBlSTFMy19NT/pi1gNrDLoupN\n6TtSV7WtuJ0lrYX6+vV8eWqLZEOO5CWSAvxr/Drt39lKsPuSjCYFe9kBAoGANShD\nyn4gV1y6yhXocE1CEUBppMPZxVyYzBd6eQ6yB7feSIHGaCkHTYQ5jb9I98Rm0wAC\nz0oTK5oMzB58tTfkvAvz5MKz300bCtNj0TQDvVB+e7AqEisdJK6U3rVkuVNAyZ+o\nF6E2QSrRGi5liTiM7SbIY/u91/ReOZDVu26K7csCgYEA9vSl7gy8yR0riGmL9rdT\nM9qX6hEcXVrduEbPve2yHb6SgBNUpZ5AzIUE4bn9x8UNMoqwrFUn2/VE9bZxRN6Z\n4cBxGHWCtlefbF9hzgos2WhqT/qpfpWE0PKVDQ4koHQKWuxM7RhbF7YzkPAPRO+7\n94lsY3OM/zju4V+R1ud0Ly4=\n-----END PRIVATE KEY-----\n",
-  "client_email": "firebase-adminsdk-fbsvc@web-me-a887b.iam.gserviceaccount.com",
-  "client_id": "111757070579591134842",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40web-me-a887b.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
+  "name": "legacylens-ai-backend",
+  "version": "1.0.0",
+  "main": "node.js",
+  "scripts": {
+    "start": "node node.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.4.0"
+  }
 }
